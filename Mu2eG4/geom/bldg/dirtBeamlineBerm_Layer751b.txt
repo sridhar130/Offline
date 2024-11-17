@@ -1,0 +1,42 @@
+// SimpleConfig geometry file automatically produced for original file:
+//
+//   geom/geom_beamline_dirtBerm.ccl
+
+string dirt.beamline.berm.l751b.name     = "dirtBeamlineBerml751b";
+
+string dirt.beamline.berm.l751b.material = "MBOverburden";
+
+double dirt.beamline.berm.l751b.offsetFromMu2eOrigin.x   = 947.4;
+double dirt.beamline.berm.l751b.offsetFromFloorSurface.y = 9449.1;//9321.8; //9017
+double dirt.beamline.berm.l751b.offsetFromMu2eOrigin.z   = -3581.4;
+
+double dirt.beamline.berm.l751b.yHalfThickness           = 304.80061; //1 US foot to mm
+
+//vector<int>    dirt.beamline.berm.l2.xreplace   = {4};
+vector<double> dirt.beamline.berm.l751b.xPositions = {
+  -18782.9, // S1   -18304.8
+  -27594.2, // S2  -25365.0
+  -23604.2,  // S3   -21707.81
+  -31750.5,  // S4 (corner)
+  -31750.5, // S5
+  -29732.6, // S6 -28684.8  -26313.7
+  -26496.6, // -21635.5, // S7   -22614.5, // S8
+  -20527.1, //S7 close to S10
+  -20527.1  //S11  -21642.8 // S9
+};
+
+vector<double> dirt.beamline.berm.l751b.yPositions = {
+  -8294.08, //  -6491.3,  //S1  -7440.88 -8294.08
+  -8662.57,   //S2 -10002.8
+  -25857.2, //S3
+  -25857.2, //S4 (corner)
+  8001.98, //S5 16332.85
+  137.34, //S6 3533.47  4127.94
+  907.05,  //5777.4,  //S7   5762.0,  //S8
+  4989.9, // S7
+  -8308.31   //S11  10053.5  //S9
+ };
+
+// Local Variables:
+// mode:c++
+// End:
